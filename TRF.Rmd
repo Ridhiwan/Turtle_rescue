@@ -1,0 +1,20 @@
+---
+title: "Turtle_Rescue_forecast"
+author: "Ridhiwan Mseya"
+date: "5/31/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Loading necessary files and libraries
+
+```{r}
+library(tidyverse)
+CaptureSite_category <- "C:/Downloads/CaptureSite_category"
+train_data <- "C:/Downloads/train"
+variable_definitions <- "C:/Downloads/variable_definitions"
+Sample_sub <- "C:/Downloads/Sample_sub"
+````
